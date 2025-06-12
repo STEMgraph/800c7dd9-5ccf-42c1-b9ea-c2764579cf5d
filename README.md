@@ -114,6 +114,13 @@ end:
     syscall
 ```
 
+To compile, use the instructions that you already know from earlier exercises:
+```sh
+as -o object-file.o assembly-file.s
+ld -o output-binary object-file.o
+./output-binary
+```
+
 ### 2. Using `cmp` and `je`
 
 Compare two values using `cmp`. If equal, jump to a label that prints:
