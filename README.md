@@ -250,14 +250,14 @@ l1 = . - n1
 .globl _start
 
 _start:
-    mov $3, %rcx
+    mov $3, %rbx
 
 loop:
-    cmp $3, %rcx
+    cmp $3, %rbx
     je print3
-    cmp $2, %rcx
+    cmp $2, %rbx
     je print2
-    cmp $1, %rcx
+    cmp $1, %rbx
     je print1
     jmp end
 
@@ -279,8 +279,8 @@ prn:
     mov $1, %rax
     mov $1, %rdi
     syscall
-    dec %rcx
-    cmp $0, %rcx
+    dec %rbx
+    cmp $0, %rbx
     jne loop
 
 end:
