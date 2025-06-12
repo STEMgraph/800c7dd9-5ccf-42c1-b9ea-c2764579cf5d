@@ -114,6 +114,11 @@ end:
     syscall
 ```
 
+Add this code to a fresh file:
+```sh
+vim assembly-file.s
+```
+
 To compile, use the instructions that you already know from earlier exercises:
 ```sh
 as -o object-file.o assembly-file.s
