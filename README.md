@@ -1,6 +1,7 @@
 <!---
 {
   "id": "800c7dd9-5ccf-42c1-b9ea-c2764579cf5d",
+  "teaches": "Control Flow with `jmp` and `cmp` in GAS",
   "depends_on": ["718193ef-11a1-408d-af23-4b10c24d490d"],
   "author": "Stephan Bökelmann",
   "first_used": "2025-06-12",
